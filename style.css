@@ -1,0 +1,22 @@
+.container {
+	border:  1px solid black;
+  /*height: 50px;*/
+}
+
+.flex-container {
+	margin: 1px 0px;
+	border:  3px solid aquamarine;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.cell {
+	flex: 1;
+	width: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+	height: 15px;
+  
+background-color: red;
+}
+
